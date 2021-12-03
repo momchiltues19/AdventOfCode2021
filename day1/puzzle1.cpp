@@ -7,13 +7,13 @@ int main()
 	int curr, prev;
 	int count = 0; 
 
-	cin >> prev;
-	while(cin >> curr)
+	std::cin >> prev;
+	while(std::cin >> curr)
 	{
 		if(prev < curr) count++;
 		prev = curr; 
 	}
-	cout << count << endl;
+	std::cout << count << std::endl;
 
 	return 0;
 }
