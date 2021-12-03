@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+void main()
 {
 	int curr, prev;
 	int count = 0; 
@@ -11,7 +11,6 @@ int main()
 		if(prev < curr) count++;
 		prev = curr; 
 	}
+	
 	std::cout << count << std::endl;
-
-	return 0;
 }

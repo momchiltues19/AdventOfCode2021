@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+void main()
 {
 	std::string command;
 	int units = 0, horizontal_position = 0, depth = 0;
@@ -16,6 +16,4 @@ int main()
 	}
 
 	std::cout << horizontal_position * depth << std::endl;
-
-	return 0;
 }
