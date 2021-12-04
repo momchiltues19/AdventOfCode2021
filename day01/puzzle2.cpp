@@ -1,6 +1,6 @@
 #include <iostream>
 
-void main()
+int main()
 {
 	int count = 0; 
 	int values[4] = {};
@@ -15,4 +15,6 @@ void main()
 	}
 
 	std::cout << count << std::endl;
+
+	return 0;
 }

@@ -1,6 +1,6 @@
 #include <iostream>
 
-void main()
+int main()
 {
 	int curr, prev;
 	int count = 0; 
@@ -13,4 +13,6 @@ void main()
 	}
 	
 	std::cout << count << std::endl;
+
+	return 0;
 }
